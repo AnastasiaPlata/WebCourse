@@ -1,0 +1,59 @@
+
+body {
+ font-family: "Dancing Script", cursive;
+ background-color:white;
+ text-align: center;
+ margin: 0;
+}
+
+/*************classes******************************/
+ 
+.top-container {
+    position:relative;
+    padding-top: 200px;
+    margin-bottom: 200px;
+    
+}
+
+.bottom-container{
+
+    position:relative;
+    padding-top: 200px;
+    margin-bottom: 200px;
+    
+}
+
+.cloud{
+    position :absolute;
+    width: 200px;
+    padding-left: 100px;
+    top:50px;
+    
+
+}
+ .mountain {
+    position :absolute;
+   left :500px;
+   
+ }
+ h1{
+    font-size: 100px;
+    margin-top: 0;
+    color:cadetblue;
+    margin-bottom: 0;
+ }
+ .cloud2{
+    position :absolute;
+    width: 200px;
+    right: 800px;
+ }
+ p{
+    font-size: 40px;
+    font-family: 'Sacramento', cursive;
+ }
+
+ 
+
+
+
+

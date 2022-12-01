@@ -1,0 +1,1 @@
+var heading = document.firstElementChild.lastElementChild.firstElementChild;
