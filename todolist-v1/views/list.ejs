@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box" id="heading">
+        <h1><%=kindOfDay%></h1>
+    </div>
+    <!-- <% if (kindOfDay === "Saturday" || kindOfDay === "Sunday"){ %>
+        <h1 style="color : purple">It's a <%=kindOfDay%> ToDo List!</h1>
+   <% } else { %>
+    <h1 style="color : blue">It's a <%=kindOfDay%> ToDo List!</h1>
+    <%  } %> -->
+    <div class="box" >
+    <form class="item" action="/" method="post">
+    <input type="text" name="text" placeholder="Πρόσθεσε σημείωση" autocomplete="off">
+    <button type="submit">+</button>
+      </form>
+        <% for ( var i=0 ; i<newListItem.length ; i++){ %>
+            <div class="item">
+                <input type="checkbox">
+                 <p><%= newListItem[i] %></p>
+             </div>
+         <% } %>
+</div>
+</body>
+</html>
